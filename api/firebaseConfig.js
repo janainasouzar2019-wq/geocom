@@ -1,12 +1,13 @@
 // Acessa as variáveis de ambiente que o Vercel injeta neste ambiente de servidor.
 // O "process.env" é um objeto do Node.js que só funciona aqui no backend.
 const firebaseConfig = {
-  apiKey: process.env.FIREBASE_API_KEY,
-  authDomain: process.env.FIREBASE_AUTH_DOMAIN,
-  projectId: process.env.FIREBASE_PROJECT_ID,
-  storageBucket: process.env.FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID,
-  appId: process.env.FIREBASE_APP_ID,
+
+  apiKey: "AIzaSyCpmCZ5Iq-3Um_Go3RYBYx1cp0t8wN2Lu0",
+  authDomain: "aula-255c8.firebaseapp.com",
+  projectId: "aula-255c8",
+  storageBucket: "aula-255c8.firebasestorage.app",
+  messagingSenderId: "1069502443311",
+  appId: "1:1069502443311:web:76ae59d26779a66bc3fbda"
 };
 
 // Esta função retorna a configuração do Firebase
